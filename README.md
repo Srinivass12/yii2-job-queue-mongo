@@ -59,7 +59,6 @@ class MyJob
 {
     public function run($job, $data)
     {
-        //process $data;
         var_dump($data);
     }
 } 
